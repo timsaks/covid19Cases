@@ -1,0 +1,25 @@
+
+.chart-container {
+    border: 5px solid grey;
+    box-shadow: 5px 5px 5px lightgrey;
+    height: 500px;
+    width: 800px;
+}
+
+.averages-container {
+    border: 5px solid grey;
+    box-shadow: 5px 5px 5px lightgrey;
+    height: 100px;
+    width: 800px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#lineChart {
+    height: 100%;
+    width: 100%;
+}

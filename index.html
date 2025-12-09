@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Chart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="covid19.js" defer></script>
+</head>
+<body>
+    <section class = "chart-section m-3 p-3">
+        <div class = "chart-container container rounded-4 d-flex justify-content-center align-items-center p-3">
+            <canvas id="lineChart"></canvas>
+        </div>
+    </section>
+    <section class = "averages">
+        <div class = "averages-container container rounded-4 d-flex justify-content-center align-items-center p-3">
+            <h2>Average of Positive Cases: <strong><span id="avg-cases"></span></strong></h2>
+        </div>
+        <div class = "averages-container container rounded-4 d-flex justify-content-center align-items-center p-3">
+            <h2>Average of Currently Hospitalized: <strong><span id="avg-hospitalized"></span></strong></h2>
+    </section>
+</body>
+</html>
